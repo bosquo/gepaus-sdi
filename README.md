@@ -14,11 +14,15 @@ Yana Nikolova
 Student in Msc. Applied Geoinformatics, Salzburg Univiersity, Austria  
 yana.nikolova@stud.plus.ac.at  
 
-Florian
-... to add
+Florian Herbst
+Student in Msc. Applied Geoinformatics, Salzburg Univiersity, Austria  
+florian.herbst@stud.plus.ac.at
 
 ### Stakeholder group(s):
-...
+IdeasLab (will use it in workshops)
+Bundeskanzleramt (receives the result)
+LEA – Lets Empower Austria (cooperation partner)
+
 
 ### Identified resources(s):
 ...
