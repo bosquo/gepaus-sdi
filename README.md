@@ -30,4 +30,4 @@ LEA – Lets Empower Austria (cooperation partner)
 
 ## Project status
 This project is part of the IP: SDI 2024/2025 which started 01.10.2024 and will finish on 28.01.2025.
-Find out more about past project activities in the [Wiki](https://git.sbg.ac.at/s1098072/i3/-/wikis/home) 
+Find out more about past project activities in the [Wiki](https://git.sbg.ac.at/s1098072/stem_rural/-/wikis/home) 
