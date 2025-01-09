@@ -3,7 +3,7 @@
 
 
 ### Abstract
-STEM stands for science, technology, engineering and mathematics. Whereas, this is a much needed field for the development of todays society, there is still a significant gender gap worldwide. On average girls are four times less likely to pursue career in STEM, which is not least due to mental barriers and lack of personal examples. “Research suggests that exposing girls to female inventors at a young age has the potential to reduce the gender gap in technical STEM fields by half.[96] „ Unfortunately the chance of a young girls interacting with women in STEM is much higher in some universities compared to others. By exploring the spatial aspect of STEM-related education in public universities in Austria we will help detect areas experiencing gender gap and thus of need for awareness raising initiatives.
+STEM stands for science, technology, engineering and mathematics. Whereas, this is a much needed field for the development of todays society, there is still a significant gender gap worldwide. On average girls are four times less likely to pursue careers in STEM, which is not least due to mental barriers and lack of personal examples. By exploring the extent of the gender gap in STEM-related education in Austria we will help detect areas where awareness raising initiatives (like LEA) are most needed.
 
 ### Keywords
 Spatial Data Infrastructure, gender gaps, science, technology, Austria, statistics
