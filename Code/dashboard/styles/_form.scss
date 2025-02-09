@@ -1,0 +1,28 @@
+@use 'helpers';
+
+.form-container {
+    height: 35%;
+    min-height: 220px;
+    border-bottom: 1px solid white;
+    padding: 0 30px
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @include helpers.text(5px);
+
+    select {
+        @include helpers.fields('select');
+
+        option:hover {
+            cursor: pointer;
+        }
+    }
+
+    button {
+        @include helpers.fields;
+    }
+}
