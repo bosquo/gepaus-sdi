@@ -1,0 +1,54 @@
+@use 'helpers';
+
+.links-container {
+    @extend %max;
+    display: flex;
+    justify-content: right;
+
+    div {
+        @extend %flex-center;
+        height: 100%;
+        width: 120px;
+        margin-right: 20px;
+        transition: 0.15s;
+
+        &:hover {
+            background-color: helpers.$main_color;
+            cursor: pointer;
+
+            a {
+                transform: scale(1.2);
+            }
+        }
+
+    }
+
+    span {
+        padding-right: 10px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+}
+
+.material-icons {
+    color: white;
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.description {
+    color: white;
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 10px;
+}
