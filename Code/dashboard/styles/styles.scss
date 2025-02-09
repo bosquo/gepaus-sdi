@@ -1,0 +1,57 @@
+@use 'helpers';
+
+@use 'navbar';
+@use 'form';
+@use 'memes';
+@use 'map';
+@use 'charts';
+@use 'media';
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: helpers.$main_color;
+    font-family: Roboto, ariel, sans-serif;
+    overflow: hidden;
+}
+
+.page-container {
+    height: 100%;
+    max-width: 1630px;
+    margin: helpers.$center;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: helpers.$navbar-height;
+    background: linear-gradient(black , black, helpers.$main_color);
+    position: relative;
+}
+
+.main-container {
+    width: 100%;
+    height: calc(100% - helpers.$navbar-height);
+    display: flex;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.media-container {
+    width: 40%;
+    max-width: 550px;
+    min-width: 360px;
+    border-right: 1px solid white;
+    margin-left: 25px;
+}
+
+.dashboard {
+    flex-grow: 1;
+}
