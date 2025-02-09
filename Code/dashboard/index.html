@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width", initial-sacale="1.0">
+        <title>University Map</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <script src="posts.js"></script>
+        <script src="ui.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="navbar">
+                <div class="menu">
+                    <span class="material-icons">
+                        menu
+                    </span>
+                </div>
+                <div>
+                    <img class="logo" src="assets/Asset 1.png" width="200" height="38">
+                </div>
+                <div class="description">Girls empowerment in Austria for STEM education</div>
+                <div class="links-container">
+                    <div>
+                        <span class="material-icons">home</span>
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div>
+                        <span class="material-icons">dashboard</span>
+                        <a href="index.html">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="media-container">
+                    <div class="form-container">
+                        <form>
+                            <div>
+                                <label for="option">Select semester of study:</label>
+                            </div>
+                            <select id="option" name="select">
+                                <option value="IPSDI_WT24:sem_w_2003_2004_wfs">semester 2003/2004</option>
+                                <option value="IPSDI_WT24:sem_w_2013_2014_wfs">semester 2013/2014</option>
+                                <option value="IPSDI_WT24:sem_w_2023_2024_wfs">semester 2023/2024</option>
+                            </select>
+                            <div>
+                                <label for="university">And select a university:</label>
+                            </div>
+                            <select id="university" name="university">
+                                <option value="none">Choose...</option>
+                            </select>
+                            <p>Or simply click on the map</p>
+                            <button id="all">See for all universities</button>
+                        </form>
+                    </div>
+                    <div class="post-container">
+                        <div class="post">
+                            <div>
+                                <img src="assets/Asset 4@2x.png" width="30" height="30">
+                                <b>Gepaus Project</b> 
+                                <img src="assets/7641727.png" width="18" height="18">
+                                <p style="color: gray"> @projectGepaus: a moment ago</p>
+                            </div>
+                            <p class="text"></p>
+                        </div>
+
+                        <div class="meme-container"> 
+                            <img id="meme" src="assets/0_image.jpg" alt="Oops something went wrong" width="300"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard">
+                    <div class="map-wrapper">
+                        <div id="map" class="map-container"></div>
+                    </div>
+                    <button class="toggle">Toggle charts</button>
+                    <div class="charts-container">
+                        <div class="doughnut-container">
+                            <canvas id="doughnutChart"></canvas>
+                        </div>
+                        <div class="bar-container">
+                            <canvas id="barChart" width="250" height="150"></canvas>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
