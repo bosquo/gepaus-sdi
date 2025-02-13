@@ -1,6 +1,7 @@
 # Project: GEPAUS​
 ## Gender Evaluation in Public Austrian Universities with respect to STEM-related fields of study over time.
 
+<img src="uploads/281e6854e59cedd76e2db8da2b239f56/Picture2.png" alt="Picture2" width="600"/>
 
 ### Abstract
 STEM stands for science, technology, engineering and mathematics. Whereas, this is a much needed field for the development of todays society, there is still a significant gender gap worldwide. On average girls are four times less likely to pursue careers in STEM, which is not least due to mental barriers and lack of personal examples. By exploring the extent of the gender gap in STEM-related education in Austria we will help detect areas where awareness raising initiatives (like LEA) are most needed.
